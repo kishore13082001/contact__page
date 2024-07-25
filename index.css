@@ -1,0 +1,376 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 15vh;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header .logo img {
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-section {
+    padding: 20px;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.contact-info {
+    position: absolute;
+    top: -30vh;
+    left: 0;
+    margin-left: 20px;
+    width: 30vw;
+    background-color: #ee660b;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+    width: 60%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-info h2 {
+    color: #fff;
+}
+
+.contact-form h2 {
+    color: #000;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+}
+
+.contact-info h3 {
+    margin-top: 20px;
+}
+
+.social a {
+    display: block;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hours p {
+    margin: 5px 0;
+}
+
+
+
+.contact-main-section {
+    background-image: url('/pexels-apasaric-325185.jpg');
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .first {
+    animation: typewriter 4s steps(40) 1s forwards;
+  }
+  
+  .second {
+    opacity: 0; /* hide the second paragraph initially */
+    animation: reveal 0s 5s forwards, typewriter 4s steps(40) 5s forwards;
+  }
+  
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.contact-inform {
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-inform p {
+    text-align: center;
+    width: 50%;
+
+}
+
+.contact-inform button {
+    color: #ff6600;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+    border-width: 0;
+}
+
+.contact-inform h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.submit-form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form form button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form h2{
+    color: #ff6600;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form form button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+    background-color: #e55d00;
+}
+
+.team-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-con {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-con img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-con h4 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin: 10px 0 5px;
+}
+
+.img-con p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.img-con:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #020911;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer nav {
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    margin-right: 0;
+}
+
+footer nav ul li a:hover {
+    color: #f29215;
+}
+
+footer .social-media {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #f29215;
+}
+
+footer .social-media i {
+    margin-right: 5px;
+}
